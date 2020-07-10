@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "LV4_app1/base.html" %}
+  {% block body_block %}
+    <h1>Welcome to index page</h1>
+    <h1>This is an example of template inheritance</h1>
+    {{ text|upper }}
+    {{ number|add:"90" }}
+    {{ text|cut:"hello" }}
+    {% endblock %}
